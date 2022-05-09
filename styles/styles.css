@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "cutepunk-light";
+    src: url("fonts/cutepunk-light.woff") format("woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'cutepunk-normal';
+    src: url('fonts/cutepunk.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'cutepunk-bold';
+    src: url('fonts/cutepunk-bold.woff') format('woff');
+    font-weight: bold;
+}
+
+body {
+  background-color: #FEFBE7;
+  color: #8E806A;
+}
+
+/* The Main Heading */
+
+.heading-container {
+  padding-top: 2rem;
+  letter-spacing: 1rem;
+}
+
+.heading-text {
+  font-family: 'cutepunk-bold';
+  font-size: 10rem;
+}
+
+.note-icon {
+  font-size: 5rem;
+  margin-top: 25px;
+}
+
+/* The Main Container With Buttons */
+
+.main-container {
+  font-family: cutepunk-normal;
+  margin: 7% 6%;
+}
+
+.image {
+  border-radius: 25%;
+  border: solid 5px;
+  border-color: #8E806A;
+}
+
+.letter {
+  font-family: 'cutepunk-bold';
+  font-size: 3rem;
+  color: #8E806A;
+}
+
+.active{
+  position: relative;
+  top: 5px;
+}
